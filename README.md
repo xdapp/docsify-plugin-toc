@@ -21,6 +21,8 @@
 
 2. Insert script into docsify document:
 
+    > 修改版请自行编译，yarn run build 或 npm run build
+
     ```html
     <script src="//unpkg.com/docsify-plugin-toc"></script>
     ```
