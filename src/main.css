@@ -12,9 +12,19 @@
   }
 }
 
+@media screen and (max-width: 512px) {
+  aside.toc-nav {
+    display: none;
+  }
+  .markdown-section {
+    margin: 0;
+    max-width: initial;
+  }
+}
+
 @media only screen and (min-width: 1000px) {
   section.content {
-    padding-right: 250px;
+    padding-right: 220px;
   }
 }
 
@@ -23,7 +33,7 @@ aside.toc-nav {
   top: 70px;
   right: 0;
   margin-right: 0;
-  width: 250px;
+  width: 220px;
   z-index: 999999;
   align-self: flex-start;
   flex: 0 0 auto;
